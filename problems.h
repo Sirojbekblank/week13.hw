@@ -13,7 +13,7 @@ double func(double *x,double *y) {
 
 // Problem 3
 int minsNewYear(int *hour, int *min) {
-    *min=*min+(23-(*hour))*60;
+    *min=60-*min+(23-(*hour))*60;
     return *min;
 }
 
