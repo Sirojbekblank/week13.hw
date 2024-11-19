@@ -32,7 +32,7 @@ int presses(int *x) {
     int times=0;
     for(int i=1;i<=9;i++) {
         for(int j=1;j<=4;j++) {
-            int n=1;
+            int n=0;
             for(int k=1;k<=j;k++) {
                 n=n*10+i;
             }
