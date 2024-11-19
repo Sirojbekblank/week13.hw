@@ -6,13 +6,15 @@ void days2years(int &days, int &years) {
 }
 // Problem 2
 double func(double *x,double *y) {
-    *y=*x*(*x)*(*x)*11/3+5;
+    *y=*x*(*x)*(*x)*11/3.0+5;
+    return *y;
 }
 
 
 // Problem 3
 int minsNewYear(int *hour, int *min) {
     *min=*min+(23-(*hour))*60;
+    return *min;
 }
 
 // Problem 4
