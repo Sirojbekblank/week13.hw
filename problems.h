@@ -19,7 +19,7 @@ int minsNewYear(int *hour, int *min) {
 
 // Problem 4
 double probability(int *y,int *w) {
-    if(*y<*w) {
+    if(*y<=*w) {
         return (7-(*w))/6.0;
     }
     if(*y>*w) {
